@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>chenlabHK</title>
+    <link rel="stylesheet" href="./main.css">
+    <style>
+      .content-container{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .people-grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+        margin: 50px 0;
+      }
+
+      .person-card{
+        text-align: center;
+        break-inside: avoid;
+
+      }
+
+      .peopleimg{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+
+      .alumni-table{
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 6px 0 30px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        overflow: hidden;
+        font-size: 16px;
+        border: 1px solid #ddd;
+      }
+
+      .alumni-table th,
+      .alumni-table td{
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+      }
+
+      .alumni-table th{
+        background-color: #f0f0f0;
+        font-weight: bold;
+        font-size: 18px;
+        color: #2c3e50;
+      }
+    </style>
+  </head>
+
+  <body>
+
+      <!--Header image part-->
+      <div class='header'>
+        <img class='headerimg' src='./img/香港理工大学.jpg'>
+      </div>
+      
+      <!--Navigation bar part---->
+      <nav>
+        <ul>
+          <li><a href='index.html'>AboutUs</a></li>
+          <li><a href='./news.html'>News</a></li>
+          <li><a href='./research.html'>Research</a></li>
+          <li><a class='active' href='./people.html'>People</a></li>
+          <li><a href='./publications.html'>Publications</a></li>
+          <li><a href='joinus.html'>JoinUs</a></li>
+          <li><a href='./gallery.html'>Gallery</a></li>
+        </ul>
+
+        <!-- 访问量显示放在这里，与导航菜单同一行右侧 -->
+        <!-- <div class="visit-counter" >
+        Total visits: <span id="busuanzi_value_site_uv"></span>
+        </div> -->
+      </nav>
+
+
+      <!------------------------->
+      <!--Main part---->
+      <!------------------------->
+
+
+<!-- Lab People -->
+<div class="content-container">
+  <div class="people-grid">
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/陈老师.jpg' alt="Principle Investigator"><br>
+      <b>Professor Luyao Chen, Principal Investigator</b><br><br><br>
+    </div>
+
+<div class="person-card">
+      <img class='peopleimg' src='./img/people/阳光.jpg' alt="Guang Yang"><br>
+      <b>Guang Yang, PhD Candidate</b><br>
+      A human being should be able to change a diaper.<br>
+      <b>Research interests:</b> neurolinguistics, syntax, non-invasive brain stimulation, fMRI<br>
+     <a href="./cv/阳光.pdf" target="_blank" rel="noopener">
+    CV (PDF)
+  </a><br><br><br>
+    </div>
+
+
+
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/岳朝倩.jpg' alt="Zhaoqian Yue"><br>
+      <b>Zhaoqian Yue, PhD Candidate</b><br>
+      Keep going.<br>
+      <b>Research interests:</b> neural bases of language processing, neural stimulation<br><br><br>
+    </div>
+
+    
+
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/王梓涵.jpg' alt="Zihan Wang"><br>
+      <b>Zihan Wang, PhD Candidate</b><br>
+      Results answer everything.<br>
+      <b>Research interests:</b> reinforcement learning, large language models, multi-agent technology<br><br><br>
+    </div>
+
+
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/单朝阳.jpg' alt="Zhaoyang Shan"><br>
+      <b>Zhaoyang Shan, PhD Candidate</b><br>
+      Small steps, great growth.<br>
+      <b>Research interests:</b> positive psychology, second language acquisition, Gai-assisted foreign language writing<br><br><br>
+    </div>
+
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/董佳然.jpg' alt="Jiaran Dong"><br>
+      <b>Jiaran Dong, Research Assistant</b><br>
+      <b>Research interests:</b> language processing, speech production, language disorders, auditory prediction<br><br><br>
+    </div>
+
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/胡斯睿.jpg' alt="Sirui Hu"><br>
+      <b>Sirui Hu, Research Assistant</b><br>
+      All is well.<br>
+      <b>Research interests:</b> machine learning, computational cognitive neuroscience, EEG/fNIRS, perception, emotion and language<br><br><br>
+    </div>
+
+    <div class="person-card">
+      <img class='peopleimg' src='./img/people/左梓瑶.jpg' alt="Ziyao Zuo"><br>
+      <b>Ziyao Zuo, Research Assistant</b><br>
+      Always be brave.<br>
+      <b>Research interests:</b> language processing, non-invasive brain stimulation, EEG, ECG<br><br><br>
+    </div>
+
+    
+  </div>
+
+  <!-- Alumni -->
+   <div>
+    <p class="alumni" style="text-align: center; font-size: 25px; font-weight: bold;">
+      <br> Alumni
+    </p>
+
+    <table class="alumni-table">
+      <tr valign="top" align="center">
+        <th>Name</th>
+        <th>Current Position</th>
+      </tr>
+
+      <tr valign="top" align="center">
+        <th>Xingfang Qu</th>
+        <td>Pursuing doctoral degree in The University of Hong Kong</td>
+      </tr>
+
+      <tr valign="top" align="center">
+        <th>Qingwei Xue</th>
+        <td>Pursuing doctoral degree in Beijing University</td>
+      </tr>
+
+      <tr valign="top" align="center">
+        <th>Yao Cheng</th>
+        <td>Secondary School Teacher</td>
+      </tr>
+
+      <tr valign="top" align="center">
+        <th>Mingchuan Yang</th>
+        <td>Pursuing doctoral degree in The Chinese University of Hong Kong</td>
+      </tr>
+
+      <tr valign="top" align="center">
+        <th>Xu Jiang</th>
+        <td>Secondary School Teacher</td>
+      </tr>
+    </table>
+   </div>
+</div>
+
+    
+              <br><br>
+
+  </body>
+
+  <footer>
+    <!-- 引入不蒜子脚本 -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  </footer>
+
+</html>
